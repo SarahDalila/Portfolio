@@ -1,0 +1,28 @@
+body{color: black;
+ text-align: center; 
+ background-color:rgb(138, 119, 119)
+ 
+}
+h1{background-color: rgb(185, 183, 183);
+    margin-top: 20px;
+}
+
+*{margin: 0;padding: 0;
+
+
+}
+
+p{text-align: center;
+    margin-top: 15px;
+
+}
+img{ margin-top: 20px;
+
+}
+nav ul {list-style:none;
+    display: flex;
+    padding: 8pt;
+    gap: 12pt ;
+
+
+}

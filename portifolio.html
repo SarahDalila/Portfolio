@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="style.css">
+
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				border: none;
+				outline: none;
+				box-sizing: border-box;
+			}
+
+			body{
+				font-family: Segoe UI, Arial, sans-serif;
+				font-size: 16px;
+			}
+			
+			nav ul{
+				display: flex;
+				list-style: none;
+				flex-direction: row;
+				padding: 8pt;
+				gap: 8pt;
+			}
+
+			nav ul a{
+				background-color: #13b4c0;
+				color: rgb(226, 224, 224);
+				padding: 4pt 8pt;
+				border-radius: .25rem;
+				text-decoration: none;
+			}
+
+			main{
+				display: flex;
+				flex-direction: column;
+				padding: 8pt;
+			}
+
+			#intro{
+				align-self: center;
+			}
+
+			#intro header{
+				display: flex;
+				flex-direction: row;
+				padding: 8pt 0;
+				gap: 8pt;
+			}
+
+			#intro header img{
+				width: 150px;
+				aspect-ratio: 1;
+				object-fit: cover;
+				object-position: center;
+				border-radius: 8px;
+			}
+
+			#intro header div{
+				
+			}
+
+			#intro header h2{
+				font-weight: 400;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="quem.html">Quem sou eu?</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<div id="intro">
+				<header>
+					<div>
+						<h1>Sarah Dalila</h1>
+						<h2>Desenvolvedora Front End</h2>	
+					</div>
+					<div>
+						<img src="https://media.licdn.com/dms/image/D4D03AQHUXcB0TsWg3Q/profile-displayphoto-shrink_800_800/0/1685662197746?e=1700697600&v=beta&t=tYeNM3u-340-QP3iGS4OeaI7t-d0GtnWYjkxVN4VgPI" alt="Foto de rosto">
+					</div>
+				</header>
+
+				<p> Cursando Técnico em Informática no Campus IFNMG </p>
+			</div>
+		</main>
+	</body>
+</html>
